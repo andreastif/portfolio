@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,26 +33,28 @@
     </div>
 </nav>
 
-<div class="container px-5 overflow-hidden" id="portfolio-container" >
+<div class="container px-5 overflow-hidden" id="portfolio-container">
     <div class="row row-cols-2 gx-5 gy-5">
         <div class="col">
-            <div class="project-image text-center"><img src="img/spring-mvc-project.png"></div>
+            <div class="project-image text-center"><img src="img/spring-mvc-project.png" alt="spring project image">
+            </div>
         </div>
         <div class="col">
-            <p>My Spring MVC project! <br> This whole project is written with Spring framework 6 and Spring Boot 3.</p>
+            <p>My Spring MVC project! <br> This whole portfolio is written also written with the Spring framework 6 and Spring Boot 3.</p>
             <div class="project-links"><a href="https://github.com/andreastif/portfolio" target="_blank"
                                           rel="noopener noreferrer">GitHub</a></div>
         </div>
         <div class="col">
-            <div class="project-image text-center"><img src="img/advent-of-code-java.png"></div>
+            <div class="project-image text-center"><img src="img/advent-of-code-java.png" alt="spring project image">
+            </div>
         </div>
         <div class="col">
-            <p>My Advent of Code project! <br> This was my first attempt at doing AoC and is written completely in Java.</p>
+            <p>My Advent of Code project! <br> This was my first attempt at doing AoC and is written completely in Java.
+            </p>
             <div class="project-links"><a href="https://github.com/andreastif/AdventOfCode" target="_blank"
-                                                   rel="noopener noreferrer">GitHub</a></div>
+                                          rel="noopener noreferrer">GitHub</a></div>
         </div>
 
-        </div>
     </div>
 </div>
 

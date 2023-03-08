@@ -2,7 +2,7 @@
 <%--This page contains a baseplate for all my HTML pages--%>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,7 @@
     <div class="row">
         <div class="col-sm">
             <div class="text-center"><h1>Andreas Tiflidis</h1></div>
-            <div class="text-center"><img src="img/me2.jpg"></div>
+            <div class="text-center"><img src="img/me2.jpg" alt="profile picture"></div>
             <div class="text-center">
                 <p id="bio">
                     Who is Andreas?
@@ -57,18 +57,17 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="text-end contact-links"><a href="https://github.com/andreastif" target="_blank"
-                                                              rel="noopener noreferrer">GitHub</a></div>
+                                                           rel="noopener noreferrer">GitHub</a></div>
                 </div>
                 <div class="col-sm">
                     <div class="text-start contact-links"><a href="https://linkedin.com/in/andreas-tiflidis-470208128"
-                                                              target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                                             target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </div>
                 </div>
             </div>
-            <div class="text-center google-maps-container" style="width: 100%">
-                <iframe width="60%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Stortorget%202,%20103%2016%20Stockholm+(Stockholm)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                    <a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe>
+            <div class="text-center google-maps-container">
+                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Stortorget%202,%20103%2016%20Stockholm+(Stockholm)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                </iframe>
             </div>
         </div>
     </div>

@@ -40,7 +40,13 @@ body {
 }
 
 .google-maps-container {
-    margin-top: 5%
+    margin-top: 5%;
+    width: 100%;
+}
+
+.google-maps-container iframe{
+    width: 60%;
+    height: 300px;
 }
 
 #portfolio-container {
