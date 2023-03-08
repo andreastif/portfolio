@@ -1,0 +1,113 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    min-height: 100vh;
+    min-width: 100vh;
+    overflow: hidden;
+}
+
+.about-me {
+    margin-bottom: 10%;
+}
+.contact-links a:link {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.contact-links a:visited {
+    color: #343a40;
+    font-weight: bold;
+}
+.contact-links a:hover {
+    color: #6c757d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.google-maps-container {
+    margin-top: 5%
+}
+
+#portfolio-container {
+    margin-top: 2rem;
+}
+
+#portfolio-container img {
+    width: 80%;
+    height: 80%;
+}
+
+#name-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+}
+
+#introduction {
+    margin: 2rem auto 1rem;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    padding: 3rem 10rem 2rem;
+}
+
+#first-introduction {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#first-introduction p::first-line {
+    font-size: xxx-large;
+}
+
+
+#second-introduction {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#bio {
+    font-size: medium;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 1%;
+}
+
+
+.my-footer {
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    border: 0 solid rgba(0, 0, 0, .15);
+    bottom: 0;
+    padding: 2rem;
+    position: absolute;
+}
+
+.my-footer p {
+    font-size: x-small;
+    padding: 0;
+    margin: 0;
+}
+
+.my-footer hr {
+    border-radius: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
