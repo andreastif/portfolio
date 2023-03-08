@@ -24,6 +24,21 @@ body {
     font-weight: normal;
 }
 
+.project-links a:link {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.project-links a:visited {
+    color: #343a40;
+    font-weight: bold;
+}
+.project-links a:hover {
+    color: #6c757d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
 .google-maps-container {
     margin-top: 5%
 }
@@ -35,6 +50,11 @@ body {
 #portfolio-container img {
     width: 80%;
     height: 80%;
+}
+
+.project-image img{
+    border-radius: 5px;
+    border-style: solid;
 }
 
 #name-image {

@@ -36,16 +36,22 @@
 <div class="container px-5 overflow-hidden" id="portfolio-container" >
     <div class="row row-cols-2 gx-5 gy-5">
         <div class="col">
-            <div class="text-center"><img src="img/spring-mvc-project.png"></div>
+            <div class="project-image text-center"><img src="img/spring-mvc-project.png"></div>
         </div>
         <div class="col">
-            <p>My Spring MVC project! <br> This whole project is written with Springframework 6 and Springboot 3.</p>
+            <p>My Spring MVC project! <br> This whole project is written with Spring framework 6 and Spring Boot 3.</p>
+            <div class="project-links"><a href="https://github.com/andreastif/portfolio" target="_blank"
+                                          rel="noopener noreferrer">GitHub</a></div>
         </div>
         <div class="col">
-            <div class="text-center"><img src="img/advent-of-code-java.png"></div>
+            <div class="project-image text-center"><img src="img/advent-of-code-java.png"></div>
         </div>
         <div class="col">
             <p>My Advent of Code project! <br> This was my first attempt at doing AoC and is written completely in Java.</p>
+            <div class="project-links"><a href="https://github.com/andreastif/AdventOfCode" target="_blank"
+                                                   rel="noopener noreferrer">GitHub</a></div>
+        </div>
+
         </div>
     </div>
 </div>
