@@ -51,6 +51,8 @@ body {
 
 #portfolio-container {
     margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #portfolio-container img {
@@ -61,6 +63,14 @@ body {
 .project-image img {
     border-radius: 5px;
     border-style: solid;
+}
+
+.project-image img:hover {
+    border-radius: 5px;
+    border-style: solid;
+    transform: scale(1.04);
+    transition-duration: 500ms;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #name-image-contact {
